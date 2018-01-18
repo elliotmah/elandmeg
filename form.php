@@ -1,19 +1,3 @@
-<?php
-$link = mysqli_connect("127.0.0.1", "root", "", "rsvp");
-
-if (!$link) {
-    echo "Error: Unable to connect to MySQL." . PHP_EOL;
-    echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-    echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
-    exit;
-}
-
-echo "Success: A proper connection to MySQL was made! The my_db database is great." . PHP_EOL;
-echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
-
-mysqli_close($link);
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,17 +22,63 @@ mysqli_close($link);
   <title>RSVP – El &amp; Meg's Wedding</title>
 </head>
 <body>
- <main class="pa4 black-80">
-  <form class="measure center" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
+<main class="pa4 black-80">
+  <form class="measure center" action="https://www.getform.org/f/7ed1ae30-6e41-4b39-9ae8-8fef9016e8f8" method="POST" enctype="multipart/form-data" autocomplete="on">
     <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
       <legend class="f4 fw6 ph0 mh0">RSVP</legend>
       <div class="mt3">
-        <label class="db fw6 lh-copy f6" for="email-address">Email</label>
-        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email-address"  id="email-address">
+        <label class="db fw6 lh-copy f6" for="contactName">What is your name?</label>
+        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="contactName"  id="contact-name" required>
+      </div>
+      <div class="mt3">
+        <label class="db fw6 lh-copy f6" for="email">What is your email address?</label>
+        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email"  id="email-address" required>
+      </div>
+      <div class="mt3">
+        <label class="db fw6 lh-copy f6" for="attending">Will you be joining us on our wedding day?</label>
+        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="attending" value="yes" required>yes<br>
+        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="attending" value="no">no<br>
+      </div>
+      <div class="mt3">
+        <label class="db fw6 lh-copy f6" for="bringingGuests">Will you be bringing any guests with you?</label>
+        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="bringingGuests" value="yes" required>yes<br>
+        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="bringingGuests" value="no">no<br>
+      </div>
+      <div class="mt3">
+        <label class="db fw6 lh-copy f6" for="partySize">Besides yourself, how many guests are in your party?</label>
+        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="partySize" value="1" required>1<br>
+        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="partySize" value="2">2<br>
+        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="partySize" value="3">3<br>
+        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="partySize" value="4">4<br>
+        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="partySize" value="5">5<br>
+      </div>
+      <div class="mt3">
+        <label class="db fw6 lh-copy f6" for="firstGuest">Name of the first guest?</label>
+        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="firstGuest"  id="first-guest" required>
+      </div>
+      <div class="mt3">
+        <label class="db fw6 lh-copy f6" for="secondGuest">Name of the second guest?</label>
+        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="secondGuest"  id="second-guest" required>
+      </div>
+      <div class="mt3">
+        <label class="db fw6 lh-copy f6" for="thirdGuest">Name of the third guest?</label>
+        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="thirdGuest"  id="third-guest" required>
+      </div>
+      <div class="mt3">
+        <label class="db fw6 lh-copy f6" for="fourthGuest">Name of the fourth guest?</label>
+        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="fourthGuest"  id="fourth-guest" required>
+      </div>
+      <div class="mt3">
+        <label class="db fw6 lh-copy f6" for="fifthGuest">Name of the fifth guest?</label>
+        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="fifthGuest"  id="fifth-guest" required>
+      </div>
+      <div class="mt3">
+        <label class="db fw6 lh-copy f6" for="dietaryConcerns">Do you or any of your party members have any dietary concerns?</label>
+        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="dietaryConcerns"  id="dietary-concerns" required>
       </div>
     </fieldset>
-    <div class="">
-      <input class="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit" value="Submit">
+    <div class="mt3">
+      <input class="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit" value="RSVP">
     </div>
   </form>
 </main> 
