@@ -28,53 +28,70 @@
       <legend class="f4 fw6 ph0 mh0">RSVP</legend>
       <div class="mt3">
         <label class="db fw6 lh-copy f6" for="contactName">What is your name?</label>
-        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="contactName"  id="contact-name" required>
+        <input class="pa2 input-reset bg-transparent hover-bg-black hover-white w-100" type="text" name="contactName"  id="contact-name" placeholder="John Smith" required>
       </div>
       <div class="mt3">
         <label class="db fw6 lh-copy f6" for="email">What is your email address?</label>
-        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email"  id="email-address" required>
+        <input class="pa2 input-reset bg-transparent hover-bg-black hover-white w-100" type="email" name="email"  id="email-address" required>
       </div>
-      <div class="mt3">
-        <label class="db fw6 lh-copy f6" for="attending">Will you be joining us on our wedding day?</label>
-        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="attending" value="yes" required>yes<br>
-        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="attending" value="no">no<br>
+      <div class="mt3 switch-field">
+        <div class="mb1 db b fw6 lh-copy f6" for="attending">
+          Will you be joining us on our wedding day?
+        </div>
+        <input class="ba b--black" type="radio" id="attending-yes" name="attending" value="yes" />
+        <label class="b" for="attending-yes">Yes</label>
+        <input type="radio" id="attending-no" name="attending" value="no" />
+        <label class="b ml2" for="attending-no">No</label>
       </div>
-      <div class="mt3">
-        <label class="db fw6 lh-copy f6" for="bringingGuests">Will you be bringing any guests with you?</label>
-        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="bringingGuests" value="yes" required>yes<br>
-        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="bringingGuests" value="no">no<br>
+      <div class="mt3 switch-field">
+        <div class="mb1 db b fw6 lh-copy f6" for="bringingGuests">
+          Will you be bringing any guests with you?
+        </div>
+        <input class="ba b--black" type="radio" id="guests-yes" name="bringingGuests" value="yes" />
+        <label class="b" for="guests-yes">Yes</label>
+        <input type="radio" id="guests-no" name="bringingGuests" value="no" />
+        <label class="b ml2" for="guests-no">No</label>
       </div>
-      <div class="mt3">
-        <label class="db fw6 lh-copy f6" for="partySize">Besides yourself, how many guests are in your party?</label>
-        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="partySize" value="1" required>1<br>
-        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="partySize" value="2">2<br>
-        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="partySize" value="3">3<br>
-        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="partySize" value="4">4<br>
-        <input class="f6 fl bb bt bl ph3 pv2 dib near-white b bg-black b--black br2 br--left bl" type="radio" name="partySize" value="5">5<br>
+      <div class="mt3 switch-field">
+        <div class="mb1 db b fw6 lh-copy f6" for="partySize">
+          Besides yourself, how many guests are in your party?
+        </div>
+        <input class="ba b--black" type="radio" id="size1" name="partySize" value="1" />
+        <label class="b" for="size1">1</label>
+        <input type="radio" id="size2" name="partySize" value="2" />
+        <label class="ml2 b" for="size2">2</label>
+        <input type="radio" id="size3" name="partySize" value="3" />
+        <label class="ml2 b" for="size3">3</label>
+        <input type="radio" id="size4" name="partySize" value="4" />
+        <label class="ml2 b" for="size4">4</label>
+        <input type="radio" id="size5" name="partySize" value="5" />
+        <label class="ml2 b" for="size5">5</label>
+
       </div>
+
       <div class="mt3">
         <label class="db fw6 lh-copy f6" for="firstGuest">Name of the first guest?</label>
-        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="firstGuest"  id="first-guest" required>
+        <input class="pa2 input-reset bg-transparent hover-bg-black hover-white w-100" type="text" name="firstGuest"  id="first-guest" required>
       </div>
       <div class="mt3">
         <label class="db fw6 lh-copy f6" for="secondGuest">Name of the second guest?</label>
-        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="secondGuest"  id="second-guest" required>
+        <input class="pa2 input-reset bg-transparent hover-bg-black hover-white w-100" type="text" name="secondGuest"  id="second-guest" required>
       </div>
       <div class="mt3">
         <label class="db fw6 lh-copy f6" for="thirdGuest">Name of the third guest?</label>
-        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="thirdGuest"  id="third-guest" required>
+        <input class="pa2 input-reset bg-transparent hover-bg-black hover-white w-100" type="text" name="thirdGuest"  id="third-guest" required>
       </div>
       <div class="mt3">
         <label class="db fw6 lh-copy f6" for="fourthGuest">Name of the fourth guest?</label>
-        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="fourthGuest"  id="fourth-guest" required>
+        <input class="pa2 input-reset bg-transparent hover-bg-black hover-white w-100" type="text" name="fourthGuest"  id="fourth-guest" required>
       </div>
       <div class="mt3">
         <label class="db fw6 lh-copy f6" for="fifthGuest">Name of the fifth guest?</label>
-        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="fifthGuest"  id="fifth-guest" required>
+        <input class="pa2 input-reset bg-transparent hover-bg-black hover-white w-100" type="text" name="fifthGuest"  id="fifth-guest" required>
       </div>
       <div class="mt3">
         <label class="db fw6 lh-copy f6" for="dietaryConcerns">Do you or any of your party members have any dietary concerns?</label>
-        <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="text" name="dietaryConcerns"  id="dietary-concerns" required>
+        <input class="pa2 input-reset bg-transparent hover-bg-black hover-white w-100" type="text" name="dietaryConcerns"  id="dietary-concerns" required>
       </div>
     </fieldset>
     <div class="mt3">
