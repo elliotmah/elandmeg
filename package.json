@@ -62,7 +62,9 @@
       "url": "http://johnotander.com"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "snazzy-info-window": "^1.1.1"
+  },
   "description": "Functional CSS for humans",
   "devDependencies": {
     "copy-files": "^0.1.0",

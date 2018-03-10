@@ -21,22 +21,30 @@
   <link rel="stylesheet" type="text/css" href="/css/tachyons.css">
   <link rel="stylesheet" type="text/css" href="http://unpkg.com/tachyons-rotations@1.0.4/css/tachyons-rotations.min.css" />
   <title>Save the date - Elliot &amp; Meggi's wedding</title>
-
-
 </head>
 
-<body class="ma4-ns ma3 sans-serif black-80">
-  <main class="serif ph3 ph4-m ph5-l bg-white kings-caslon-display">
+<body class="sans-serif black-80">
 
-    <nav class="pa3 pa4-ns tc">
-      <a class="link dim black-60 pt4 f5 white f5-ns dib mr3" href="#" title="Home">save the date</a>
-      <!-- <a class="link dim gray f5 f5-ns dib mr3" href="#" title="Home">The Venue</a>
-      <a class="link dim gray f5 f5-ns dib mr3" href="#" title="Store">RSVP</a>
-      <a class="link dim gray f5 f5-ns dib" href="#" title="Contact">More</a> -->
+  <div class="button_container ml3" id="toggle">
+    <span class="top"></span>
+    <span class="middle"></span>
+    <span class="bottom"></span>
+  </div>
+
+  <div class="overlay" id="overlay">
+    <nav class="pa3 pa4-ns tracked kings-caslon-display" id="overlay-menu">
+      <ul>
+        <li><a class="link dim gray f2 dib" href="index" title="Save the date">Save the date</a></li> 
+        <li><a class="link dim gray f2 dib" href="wedding" title="The wedding">The wedding</a></li>
+        <li><a class="link dim gray f2 dib" href="form" title="RSVP">RSVP</a></li>
+        <li><a class="link dim gray f2 dib" href="vancouver" title="About Vancouver">About Vancouver</a></li>
+      </ul>
     </nav>
+  </div>
+  <main class="serif ma4-ns ma3 pt3-ns mt6-ns mt6 ph3 ph4-m ph5-l bg-white kings-caslon-display">
+
       <h2 class="tc black-60 i f4 pt4 fw1">August 5, 2018</h2>
       <h1 class="tc black-80 f-headline-ns f1-m fw1 mb5 mt0">Elliot &amp; Meggi</h1>
-
       <p class="ma3 tc black-60 pa4 pt5 pb0 f4 mb3 i">please save the date to celebrate our wedding with us</p>
       <p class="ma3 tc black-80 pa4 pt0 pb0 mt1 mb1 f4">POSTMARK BREWERY</p>
       <p class="ma3 tc black-60 i pa4 pt0 pb5 mt2 f4">Vancouver, BC</p>

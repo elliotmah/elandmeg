@@ -32,4 +32,10 @@ $(window).on("load",function() {
     $('.fade').css( 'opacity', 0 );
     fade();
     $(window).scroll(function() {fade();});
+
+    $('#toggle').click(function() {
+      $(this).toggleClass('active');
+      $('#overlay').toggleClass('open');
+    });
+
 });
