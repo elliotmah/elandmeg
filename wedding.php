@@ -25,7 +25,7 @@
 
 <body class="sans-serif black-80">
 
-  <div class="button_container ml3" id="toggle">
+  <div class="button-container fixed ml3 mt1" id="toggle">
     <span class="top"></span>
     <span class="middle"></span>
     <span class="bottom"></span>
@@ -41,6 +41,15 @@
       </ul>
     </nav>
   </div>
+
+  <nav class="db dt-l w-100 border-box kings-caslon-display pl5 fixed" id="subnav">
+    <div class="bg-white-90 fixed w-100 pa3 top--1 pl5 pt5 pb4">
+      <a class="link dim dark-gray f5 f5-l dib mr3 mr4-l" href="#where-to-stay" title="Where to stay">Where to stay</a>
+      <a class="link dim dark-gray f5 f5-l dib mr3 mr4-l" href="#getting-around" title="Getting around">Getting around</a>
+      <a class="link dim dark-gray f5 f5-l dib mr3 mr4-l" href="#whats-happening" title="What's happening">What's happening</a>
+      <a class="link dim dark-gray f5 f5-l dib mr3 mr4-l" href="#other" title="Other">Other</a>
+    </div>
+  </nav>
 
 <main class="serif ma4-ns ma3 pt3-ns mt6-ns mt6 ph3 ph4-m ph5-l bg-white kings-caslon-display">
 

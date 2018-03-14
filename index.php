@@ -25,7 +25,7 @@
 
 <body class="sans-serif black-80">
 
-  <div class="button_container ml3" id="toggle">
+  <div class="button-container fixed ml3 mt1" id="toggle">
     <span class="top"></span>
     <span class="middle"></span>
     <span class="bottom"></span>
@@ -41,6 +41,7 @@
       </ul>
     </nav>
   </div>
+
   <main class="serif ma4-ns ma3 pt3-ns mt6-ns mt6 ph3 ph4-m ph5-l bg-white kings-caslon-display">
 
       <h2 class="tc black-60 i f4 pt4 fw1">August 5, 2018</h2>
@@ -118,7 +119,7 @@
 
     <footer class="black-80 pv3 pv4-l ph4 fade">
       <div class="pa2 bt b--black-20">
-        <p class="ph0 f4 fw8 tc f1-ns measure center">RSVP – Coming soon&nbsp;</p>
+        <p class="ph0 f4 fw8 tc f1-ns measure center"><a class="link dim gray f2 dib" href="form" title="RSVP">RSVP</a></p>
       </div> 
     </footer>
 
