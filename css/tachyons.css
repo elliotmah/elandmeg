@@ -82,7 +82,7 @@ abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ t
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-b, strong { font-weight: inherit; }
+b, strong { font-weight: inherit; font-family: kings-caslon;}
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
@@ -3341,6 +3341,14 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-btm-l { vertical-align: bottom; }
 }
 
+a {
+  box-shadow: inset 0 -8px 0 lightgrey;
+}
+
+a:hover {
+  background: lightgrey;
+}
+
 /* Blockquote styling */
 blockquote {
     position: relative;
@@ -3354,7 +3362,7 @@ blockquote:before {
     position: absolute;
     left: -30px;
     top: -20px;
-    color: silver;
+    color: lightgrey;
 }
 
 @media only screen
@@ -3553,10 +3561,17 @@ input {
   color: #333;
   text-decoration: none;
   overflow: hidden;
+  box-shadow: none;
 }
+
+.overlay ul li a:hover {
+  background: none;
+}
+
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
   width: 100%;
 }
+
 .overlay ul li a:after {
   content: '';
   position: absolute;
@@ -3596,8 +3611,14 @@ input {
 /* Sub Navigation */
 
 @media screen and (max-device-width: 600px) {
-  body {
-    background-color: green;
+  #subnav {
+    display: none;
+  }
+  #airbnb {
+    display: none;
+  }
+  #map {
+    display: none;
   }
 }
 

@@ -19,19 +19,18 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="/css/tachyons.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-  <link rel="stylesheet" type="text/css" href="http://unpkg.com/tachyons-rotations@1.0.4/css/tachyons-rotations.min.css" />
-  <title>RSVP – El &amp; Meg's Wedding</title>
+  <title>The Wedding – El &amp; Meg's Wedding</title>
 </head>
 
 <body class="sans-serif black-80">
 
-  <div class="button-container fixed ml3 mt1" id="toggle">
+  <div class="button-container fixed ml3 mt1 z-5" id="toggle">
     <span class="top"></span>
     <span class="middle"></span>
     <span class="bottom"></span>
   </div>
 
-  <div class="overlay" id="overlay">
+  <div class="overlay z-4" id="overlay">
     <nav class="pa3 pa4-ns tracked kings-caslon-display" id="overlay-menu">
       <ul>
         <li><a class="link dim gray f2 dib" href="index" title="Save the date">Save the date</a></li> 
@@ -42,19 +41,39 @@
     </nav>
   </div>
 
-  <nav class="db dt-l w-100 border-box kings-caslon-display pl5 fixed" id="subnav">
-    <div class="bg-white-90 fixed w-100 pa3 top--1 pl5 pt5 pb4">
-      <a class="link dim dark-gray f5 f5-l dib mr3 mr4-l" href="#where-to-stay" title="Where to stay">Where to stay</a>
-      <a class="link dim dark-gray f5 f5-l dib mr3 mr4-l" href="#getting-around" title="Getting around">Getting around</a>
-      <a class="link dim dark-gray f5 f5-l dib mr3 mr4-l" href="#whats-happening" title="What's happening">What's happening</a>
-      <a class="link dim dark-gray f5 f5-l dib mr3 mr4-l" href="#other" title="Other">Other</a>
-    </div>
-  </nav>
+  <main class="serif ma4-ns ma3 pt3-ns mt6-ns mt6 ph3 ph4-m ph5-l bg-white kings-caslon-display">
+    <article class="pa4 mt5">
+      <div class="cf fade">
+        <h1 class="f2">The Wedding</h1>
+        <p class="f5 f4-ns lh-copy measure fade">We are happy you are joining us for our Wedding day. Our ceremony will be about 30 minutes long and will start at 4 PM in the Stanley Park Rose Garden. There are a limited number of chairs reserved for those that have difficulty standing. After the ceremony, we will provide transportation to the reception venue. Please do not feel like you must drive and have to deal with parking.</p>
+        <p class="f5 f4-ns lh-copy measure fade"><a class="black-80 no-underline" href="./event.ics">Add to calendar</a></p>
 
-<main class="serif ma4-ns ma3 pt3-ns mt6-ns mt6 ph3 ph4-m ph5-l bg-white kings-caslon-display">
+          <div class="fl w-100 w-50-l pr2-l pb3">
+            <h2 class="f3">Ceremony</h2>
+            <ul class="measure list">
+              <li class="lh-copy pv2 bl-0 bt-0 br-0"><strong>Where: </strong><a class="black-80 no-underline" href="http://vancouver.ca/parks-recreation-culture/gardens-in-stanley-park.aspx">Stanley Park Rose Garden</a>, 610 Pipeline Rd</li>
+              <li class="lh-copy pv2 bl-0 bt-0 br-0"><strong>Time: </strong> 4:00 PM</li>
+            </ul>
+          </div>
+          <div class="fl w-100 w-50-l pr2-l pb3">
+            <h2 class="f3">Reception</h2>
+            <ul class="measure list">
+              <li class="lh-copy pv2 bl-0 bt-0 br-0"><strong>Where: </strong><a class="black-80 no-underline" href="http://postmarkbrewing.com/">Postmark Brewery</a>, 55 Dunlevy Ave</li>
+              <li class="lh-copy pv2 bl-0 bt-0 br-0"><strong>Time: </strong> 5:00 PM</li>
+            </ul>
+          </div>
+          <div id="map" class="fdb w-100 pt4-ns pb4-ns fade"><iframe src="https://snazzymaps.com/embed/49260" width="100%" height="450px" style="border:none;"></iframe></div>
+        </div> 
+      
+      <h2 class="f3 pt4">Gifts</h2>
+      <p class="f5 f4-ns lh-copy measure fade">We're delighted to host you and your presence is more than enough. If you would like to give a gift anyways, a small monetary donation is always appreciated.</p>
 
-<iframe src="https://snazzymaps.com/embed/49260" width="100%" height="480px" style="border:none;"></iframe>
-</main>
+      <h2 class="f3 pt4">What to expect</h2>
+      <p class="f5 f4-ns lh-copy measure fade"></p>
+
+      <h2 class="f3 pt4">What to expect</h2>
+      <p class="f5 f4-ns lh-copy measure fade"></p>
+  </main>
 </body>
 
 </html>

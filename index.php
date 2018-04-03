@@ -19,11 +19,10 @@
   <script type="text/javascript" src="/js/all.js"></script>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="/css/tachyons.css">
-  <link rel="stylesheet" type="text/css" href="http://unpkg.com/tachyons-rotations@1.0.4/css/tachyons-rotations.min.css" />
   <title>Save the date - Elliot &amp; Meggi's wedding</title>
 </head>
 
-<body class="sans-serif black-80">
+<body class="sans-serif black-70">
 
   <div class="button-container fixed ml3 mt1" id="toggle">
     <span class="top"></span>
@@ -45,9 +44,9 @@
   <main class="serif ma4-ns ma3 pt3-ns mt6-ns mt6 ph3 ph4-m ph5-l bg-white kings-caslon-display">
 
       <h2 class="tc black-60 i f4 pt4 fw1">August 5, 2018</h2>
-      <h1 class="tc black-80 f-headline-ns f1-m fw1 mb5 mt0">Elliot &amp; Meggi</h1>
+      <h1 class="tc black-90 f-headline-ns f1-m fw1 mb5 mt0">Elliot &amp; Meggi</h1>
       <p class="ma3 tc black-60 pa4 pt5 pb0 f4 mb3 i">please save the date to celebrate our wedding with us</p>
-      <p class="ma3 tc black-80 pa4 pt0 pb0 mt1 mb1 f4">POSTMARK BREWERY</p>
+      <p class="ma3 tc black-90 pa4 pt0 pb0 mt1 mb1 f4">POSTMARK BREWERY</p>
       <p class="ma3 tc black-60 i pa4 pt0 pb5 mt2 f4">Vancouver, BC</p>
 
     <article class="pa4 mt5">
@@ -87,7 +86,7 @@
         Ramen</em>). This adventure also gave Meg and Elliot an unforgettable Summer with the
       Marras! They spent most of their time playing pick-up basketball and hanging out in the backyard.</p>
 
-      <blockquote class="ph0 f4 f1-ns measure-narrow center fade">
+      <blockquote class="ph0 f4 f1-ns measure-narrow center black-90 fade">
         <p class="fw9 lh-copy pl4-ns lh-title-ns">One of their most memorable mini Alberta adventures was their trip up to Red Deer to get their puppers, Harper!</p>
       </blockquote>
 
@@ -118,8 +117,8 @@
     </article>
 
     <footer class="black-80 pv3 pv4-l ph4 fade">
-      <div class="pa2 bt b--black-20">
-        <p class="ph0 f4 fw8 tc f1-ns measure center"><a class="link dim gray f2 dib" href="form" title="RSVP">RSVP</a></p>
+      <div class="pa2">
+        <p class="pb3 f4 fw8 tc f1-ns measure center"><a class="link black-80 f2 dib" href="form" title="RSVP">RSVP</a></p>
       </div> 
     </footer>
 
