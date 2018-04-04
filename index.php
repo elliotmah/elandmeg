@@ -16,9 +16,9 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-  <script type="text/javascript" src="/js/all.js"></script>
+  <script type="text/javascript" src="/js/min/all-min.js"></script>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="/css/tachyons.css">
+  <link rel="stylesheet" type="text/css" href="/css/tachyons-min.css">
   <title>Save the date - Elliot &amp; Meggi's wedding</title>
 </head>
 

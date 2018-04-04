@@ -17,7 +17,7 @@
   <script type="text/javascript" src="/js/min/all-min.js"></script>
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="/css/tachyons.css">
+  <link rel="stylesheet" type="text/css" href="/css/tachyons-min.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
   <title>The Wedding – El &amp; Meg's Wedding</title>
 </head>
