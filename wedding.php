@@ -33,7 +33,7 @@
   <div class="overlay z-4" id="overlay">
     <nav class="pa3 pa4-ns tracked kings-caslon-display" id="overlay-menu">
       <ul>
-        <li><a class="link dim gray f2 dib" href="index" title="Save the date">Save the date</a></li> 
+        <li><a class="link dim gray f2 dib" href="index" title="Save the date">Save the date</a></li>
         <li><a class="link dim gray f2 dib" href="wedding" title="The wedding">The wedding</a></li>
         <li><a class="link dim gray f2 dib" href="form" title="RSVP">RSVP</a></li>
         <li><a class="link dim gray f2 dib" href="vancouver" title="About Vancouver">About Vancouver</a></li>
@@ -50,29 +50,26 @@
 
           <div class="fl w-100 w-50-l pr2-l pb3">
             <h2 class="f3">Ceremony</h2>
-            <ul class="measure list">
+            <ul class="measure list f5 f4-ns">
               <li class="lh-copy pv2 bl-0 bt-0 br-0"><strong>Where: </strong><a class="black-80 no-underline" href="http://vancouver.ca/parks-recreation-culture/gardens-in-stanley-park.aspx">Stanley Park Rose Garden</a>, 610 Pipeline Rd</li>
               <li class="lh-copy pv2 bl-0 bt-0 br-0"><strong>Time: </strong> 4:00 PM</li>
             </ul>
           </div>
           <div class="fl w-100 w-50-l pr2-l pb3">
             <h2 class="f3">Reception</h2>
-            <ul class="measure list">
+            <ul class="measure list f5 f4-ns">
               <li class="lh-copy pv2 bl-0 bt-0 br-0"><strong>Where: </strong><a class="black-80 no-underline" href="http://postmarkbrewing.com/">Postmark Brewery</a>, 55 Dunlevy Ave</li>
               <li class="lh-copy pv2 bl-0 bt-0 br-0"><strong>Time: </strong> 5:00 PM</li>
             </ul>
           </div>
           <div id="map" class="fdb w-100 pt4-ns pb4-ns fade"><iframe src="https://snazzymaps.com/embed/49260" width="100%" height="450px" style="border:none;"></iframe></div>
-        </div> 
-      
+        </div>
+
       <h2 class="f3 pt4">Gifts</h2>
-      <p class="f5 f4-ns lh-copy measure fade">We're delighted to host you and your presence is more than enough. If you would like to give a gift anyways, a small monetary donation is always appreciated.</p>
+      <p class="f5 f4-ns lh-copy measure fade">We're so happy you're able to join us on our wedding day. Please don't feel obligated to give us a gift, your presence is more than enough. If you would like to give a gift anyways, a small monetary donation is always appreciated.</p>
 
       <h2 class="f3 pt4">What to expect</h2>
-      <p class="f5 f4-ns lh-copy measure fade"></p>
-
-      <h2 class="f3 pt4">What to expect</h2>
-      <p class="f5 f4-ns lh-copy measure fade"></p>
+      <p class="f5 f4-ns lh-copy measure fade">Both the wedding ceremony and reception will be semi-formal. After the relatively short ceremony, we'll all head to the reception together for a toast with some sparkling refreshments. The rest of the night will be filled with cocktail food service, drinks (wine and beer only) and plenty of dancing.</p>
   </main>
 </body>
 

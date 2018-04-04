@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="refresh" content="3;url=http://www.elandmegs.wedding" />
+  <meta http-equiv="refresh" content="5;url=http://www.elandmegs.wedding" />
   <script type="text/javascript" src="https://use.typekit.net/hqe8byh.js"></script>
   <script type="text/javascript">
     try {
@@ -20,7 +20,7 @@
   <script type="text/javascript" src="/js/all.js"></script>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="/css/tachyons.css">
-  <title>Success</title>
+  <title>Success – El & Meg's Wedding</title>
 </head>
 
 <body class="sans-serif black-80">
@@ -34,7 +34,7 @@
   <div class="overlay" id="overlay">
     <nav class="pa3 pa4-ns tracked kings-caslon-display" id="overlay-menu">
       <ul>
-        <li><a class="link dim gray f2 dib" href="index" title="Save the date">Save the date</a></li> 
+        <li><a class="link dim gray f2 dib" href="index" title="Save the date">Save the date</a></li>
         <li><a class="link dim gray f2 dib" href="wedding" title="The wedding">The wedding</a></li>
         <li><a class="link dim gray f2 dib" href="form" title="RSVP">RSVP</a></li>
         <li><a class="link dim gray f2 dib" href="vancouver" title="About Vancouver">About Vancouver</a></li>
@@ -44,8 +44,8 @@
 
   <main class="serif ma4-ns ma3 pt3-ns mt6-ns mt6 ph3 ph4-m ph5-l bg-white kings-caslon-display">
 
-      <h1 class="tc black-80 f-headline-ns f1-m fw1 mb5 mt0">Success!</h1>
-      <p class="ma3 tc black-60 pa4 pt5 pb0 f4 mb3 i">Thank you for responding to </p>
+      <h1 class="tc black-80 f-headline-ns f1-m fw1 mb5 mt5">Success!</h1>
+      <p class="ma2 tc black-60 pa4 pt3 pb0 f4 mb3 i">Thank you for responding to Elliot & Meggi's wedding invitation. You will be redirected in 5 seconds...</p>
 
   </main>
 

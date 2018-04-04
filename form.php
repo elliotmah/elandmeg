@@ -33,7 +33,7 @@
   <div class="overlay z-4" id="overlay">
     <nav class="pa3 pa4-ns tracked kings-caslon-display" id="overlay-menu">
       <ul>
-        <li><a class="link dim gray f2 dib" href="index" title="Save the date">Save the date</a></li> 
+        <li><a class="link dim gray f2 dib" href="index" title="Save the date">Save the date</a></li>
         <li><a class="link dim gray f2 dib" href="wedding" title="The wedding">The wedding</a></li>
         <li><a class="link dim gray f2 dib" href="form" title="RSVP">RSVP</a></li>
         <li><a class="link dim gray f2 dib" href="vancouver" title="About Vancouver">About Vancouver</a></li>
@@ -42,7 +42,7 @@
   </div>
 
     <main class="serif bg-white kings-caslon-display">
-      
+
     <iframe
       id="JotFormIFrame-80386244773261"
       onload="window.parent.scrollTo(0,0)"

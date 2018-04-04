@@ -33,7 +33,7 @@
   <div class="overlay" id="overlay">
     <nav class="pa3 pa4-ns tracked kings-caslon-display" id="overlay-menu">
       <ul>
-        <li><a class="link dim gray f2 dib" href="index" title="Save the date">Save the date</a></li> 
+        <li><a class="link dim gray f2 dib" href="index" title="Save the date">Save the date</a></li>
         <li><a class="link dim gray f2 dib" href="wedding" title="The wedding">The wedding</a></li>
         <li><a class="link dim gray f2 dib" href="form" title="RSVP">RSVP</a></li>
         <li><a class="link dim gray f2 dib" href="vancouver" title="About Vancouver">About Vancouver</a></li>
@@ -50,20 +50,20 @@
       <p class="ma3 tc black-60 i pa4 pt0 pb5 mt2 f4">Vancouver, BC</p>
 
     <article class="pa4 mt5">
-      
+
       <p class="f5 f4-ns lh-copy measure center">This love story began in the spring of 2011. Meggi had taken the
       invitation to spend the spring/summer with her sister Britt in Calgary. So, she picked up everything she had in
       Southern Ontario and took advantage of the exciting opportunity.</p>
 
       <img class="db w-100 pt4 pb4 fade" src="./img/wildwest.jpg" alt="View of downtown Calgary">
-      
+
       <p class="f5 f4-ns lh-copy measure center fade">Upon arriving in western Canada, Meg discovered the fantastic group of friends her sister had collected. But one, in particular, caught her eye!</p>
 
       <img class="db w-100 pt4 pb4 fade" src="./img/mercato.jpg" alt="Dinner at Mercato restaurant">
 
       <p class="f5 f4-ns lh-copy measure center fade">Meggi and Elliot hit it off immediately. Their kindred passion for
       music, food, culture and a good IPA is what brought them together—it also took them on many adventures.</p>
-      
+
       <!-- <blockquote class="ph0 f4 f1-ns measure-narrow center fade">
         <p class="fw9 lh-copy pl4-ns lh-title-ns">Their kindred passion for music, food, culture and a good IPA is what brought them together.</p>
       </blockquote> -->
@@ -72,7 +72,7 @@
       to Sasquatch Music Festival. It was during this trip a young Elliot let those three magical words slip!</p>
 
       <img class="db w-100 pt4 pb4 fade" src="./img/sasquatch-gorge.jpg" alt="View of Sasquatch stage in the Gorge, WA">
-      
+
       <p class="f5 f4-ns lh-copy measure center fade">When they got home from this trip, Meg filled Elliot in on what he
       had said (for some reason he couldn’t remember) and told him that she would be staying in Calgary with him!
       During the next couple of years Elliot and Meggi spent their time exploring Calgary and the Rocky Mountains.</p>
@@ -119,7 +119,7 @@
     <footer class="black-80 pv3 pv4-l ph4 fade">
       <div class="pa2">
         <p class="pb3 f4 fw8 tc f1-ns measure center"><a class="link black-80 f2 dib" href="form" title="RSVP">RSVP</a></p>
-      </div> 
+      </div>
     </footer>
 
   </main>
